@@ -1,0 +1,19 @@
+
+  <script>
+    function salvarSelecoes() {
+      const lista = document.getElementById('menu-list');
+      const itens = lista.getElementsByTagName('li');
+      const selecoes = [];
+      for (let item of itens) {
+        const checkbox = item.getElementsByTagName('input')[0];
+        if (checkbox && checkbox.checked) {
+          const label = item.getElementsByTagName('label')[0].innerText;
+          selecoes.push(label);
+        }
+      }
+      alert('Você selecionou: ' + selecoes.join(', '));
+    }
+  </script>
+</body>
+
+</html>
