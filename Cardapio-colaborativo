@@ -1,4 +1,13 @@
 
+    <li><input type="checkbox" id="item14" name="item14"><label for="item14">🍖 Frios (queijo, presunto, azeitona, salame)</label></li>
+    <li><input type="checkbox" id="item15" name="item15"><label for="item15">☕ Café</label></li>
+    <li><input type="checkbox" id="item16" name="item16"><label for="item16">🍹 Suco (uva, abacaxi, cajá, graviola)</label></li>
+    <li><input type="checkbox" id="item17" name="item17"><label for="item17">🥤 Refrigerantes</label></li>
+    <li><input type="checkbox" id="item18" name="item18"><label for="item18">❄️ Gelo: 2 pacotes de escama</label></li>
+    <li><label for="item19">🍻 Bebidas alcoólicas cada um traz para si</label></li>
+  </ul>
+  <button onclick="salvarSelecoes()">Salvar Seleções</button>
+
   <script>
     function salvarSelecoes() {
       const lista = document.getElementById('menu-list');
